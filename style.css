@@ -1,0 +1,40 @@
+* {
+    font-family: Roboto Mono, serif;
+}
+
+.content {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.about_me_header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.about_me_header__photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: fill;
+
+    margin-left: 50px;
+}
+
+.text_about_me {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.about_me_body {
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+}
+
+.about_me_body__text {
+    overflow-wrap: break-word;
+    text-align: start;
+}
