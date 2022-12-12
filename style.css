@@ -2,21 +2,40 @@
     font-family: Roboto Mono, serif;
 }
 
+body {
+    background-image: url("img/img_3.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .content {
     width: 40%;
-    margin: 0 auto;
+    padding: 20px;
+    margin: 100px auto 0;
+
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(184, 188, 255, 0.37);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .about_me_header {
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
     margin-bottom: 30px;
 }
 
+.about_me_header__name {
+    font-weight: bold;
+}
+
 .about_me_header__photo {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    border: solid rgba(50, 200, 220, 0.6);
     border-radius: 50%;
     object-fit: fill;
 
@@ -37,4 +56,19 @@
 .about_me_body__text {
     overflow-wrap: break-word;
     text-align: start;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content__icon {
+    margin-top: 20px;
+}
+
+.content__icon img {
+
+    height: 30px;
+    width: 30px;
 }
